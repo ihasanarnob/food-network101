@@ -1,9 +1,13 @@
 body{
     font-family: 'Roboto', sans-serif;
     color: darkslategrey;
+    margin: 0%;
 }
 h1{
     font-size: 45px;
+}
+p{
+    font-size: 13px;
 }
 
 .orange{
@@ -43,6 +47,7 @@ p{
 }
 .flex-container{
     display: flex;
+    padding-bottom: 50px;
 }
 .recipe-one{
     width: 50%;
@@ -52,4 +57,42 @@ p{
 }
 .recipe-three{
     width: 50%;
+}
+.box{
+    width: 25%;
+    border-radius: 20px;
+    box-shadow: -2px -2px 3px black;
+    margin-left: 50px;
+    margin-right: 30px;
+    padding: 10px;
+    margin-bottom: 150px;
+}
+.image img{
+    max-width: 100%;
+    border-radius: 20px;
+}
+.reach{
+    background-color: white;
+    height: 150px;
+    width: 800px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    box-shadow: -2px -2px 5px black;
+    border-radius: 5px;
+    margin-bottom: 75px;
+    
+}
+.split{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.footer{
+    text-align: center;
+    background-color: rgb(15, 14, 14);
+    border-bottom-color: black;
+    margin-bottom: 0%;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
